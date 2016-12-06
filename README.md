@@ -1,8 +1,12 @@
+**LevelDB 是谷歌的一个快速键值存储库，提供从字符串到字符串值的有序映射。**
+
 **LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.**
 
 [![Build Status](https://travis-ci.org/google/leveldb.svg?branch=master)](https://travis-ci.org/google/leveldb)
 
-Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
+Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)<br/>
+中文注释：KevinsBobo (kevins.bobo@gmail.com)<br/>
+注释内容：源代码注释与翻译，文档翻译
 
 # Features
   * Keys and values are arbitrary byte arrays.
@@ -16,7 +20,8 @@ Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
   * External activity (file system operations etc.) is relayed through a virtual interface so users can customize the operating system interactions.
 
 # Documentation
-  [LevelDB library documentation](https://rawgit.com/google/leveldb/master/doc/index.html) is online and bundled with the source code.
+  [LevelDB library documentation](https://rawgit.com/google/leveldb/master/doc/index.html) is online and bundled with the source code.<br/>
+  [LevelDB library 中文文档](http://kevins.pro/blog/leveldb_chinese_doc)是在线的，并且捆绑在源代码中。
 
 
 # Limitations
